@@ -1,0 +1,90 @@
+.container > div {
+    padding : 20px;
+    text-align :center;
+    font-size :20px;
+    color :black;
+    background-color :#D2B48C;
+
+}
+html, body {
+    background-color :wheat;
+    margin :0px;
+    padding :0px;
+
+
+
+}
+.hero {
+    background-image : url("images/coffee.jpg"); /*path to image*/
+    background-size :cover; /* makes image cover the entire area */
+    background-position :center; /* center the images */
+    background-repeat :no-repeat; /*prevent tiling*/
+    height :100vh; /* ensure body takes full viewport height */
+    margin :0; /* remove default spacing */
+    display :flex; /* use for flexbox layout */
+    flex-direction :column; /*arrange items vertically */
+    justify-content :center; /*center items horizontally */
+    align-items :center; /* center items vertically */
+    gap :50px; /*space between items */
+    color :white; /*text color */
+    font-size :2em; /*text size */
+
+
+}
+nav ul {
+    list-style :none;
+    display :flex;
+    gap :20px;
+
+}
+nav ul li a{
+    color :white;/*text color */
+    text-decoration :none; /* remove underline */
+
+}
+nav ul li a:hover {
+    background-color :rgba(255,255,255,0,2);/* optional hover effect */
+    border-radius: 5px;
+
+}
+nav ul {
+    list-style: none;          /* remove bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;    /* stack items vertically */
+    align-items: center;       /* center horizontally */
+    gap: 20px;                 /* space between items */
+}
+
+nav ul li a {
+    text-decoration: none;     /* remove underline */
+    color: white;              /* text color */
+    font-size: 1.5em;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.2); /* hover effect */
+    border-radius: 5px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: flex;       /* image + text in a row */
+    align-items: center;
+    gap: 15px;           /* space between image and text */
+}
+
+.menu-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
